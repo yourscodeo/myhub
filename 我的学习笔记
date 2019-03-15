@@ -48,8 +48,8 @@
          ——要想让单选框默认选中某一个框子，那么可以给input标签加一个checked属性
          ——在html中如果属性的取值和属性的名称一样，可以只写一个，但是在XHTML中必须写上取值，所以在企业开发中我们推荐大家不要省略取值
 18、  表单的一些type类型
-          —普通按钮：<input type="button" value="我是按钮" onclick="alter (inj)">
-          —图片按钮：<input type="image" src="maomi.jpeg" onclick="alter(inj)">
+          —普通按钮：<input type="button" value="我是按钮" onclick="alter ('inj')">
+          —图片按钮：<input type="image" src="maomi.jpeg" onclick="alter('inj')">
           —重置按钮：<input type="reset" value="清空">  （清空/重置表单内已经写好了的数据）
           —提交按钮：<input type="submit">   （提交表单里面的数据）
           —隐藏域：<inptu type="hidden" name="cc" value="it666">   用于偷偷摸摸的收集用户的一些数据，隐藏域是不会出现在界面中的，
