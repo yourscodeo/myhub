@@ -72,6 +72,13 @@
     ——muted：用来静音 格式：muted="muted"
     ——width：
     ——height：
+    video的另外一种格式：<video> <source src="sb.webm" type="video/webm"></source>    
+                               <source src="sb.mp4" type="video/mp4"></source>
+                               <source src="sb.ogg" type="video/ogg"></source>
+                       </video>
+    由于视频数据非常非常重要，所以五大浏览器厂商都不愿意支持别人的视频格式，所以导致了没有一种视频格式是所有浏览器都支持的，这个时候w3c为了解决这个问题，，
+    所以推出了第二个video标签的格式。    video标签的第二种格式存在的意义就是为了解决浏览器适配问题，  video标签元素支持三种视频格式，我们可以把这三种格式都通过，
+    source标签指定给video标签，那么当浏览器播放视频时它就会从这三种中选择一种自己支持的格式来播放
 
 
 
