@@ -60,6 +60,18 @@
           ——＜ｉｎｐｕｔ　ｔｙｐｅ＝＂ｃｈｅｃｋｂｏｘ＂　ｃｈｅｃｋｅｄ＝“ｃｈｅｃｋｅｄ”＞　足球
 19、label标签：默认情况下文字和输入框是没有关联的，也就是说点击文字输入框不会聚焦，如果想点击文字时让相应的文字框聚焦那么就需要让文字和输入框进行绑定。要想让文字和输入框进行绑定，我们需要使用一个lable标签。绑定格式：1、将文字利用label标签包裹起来，2、给输入框添加一个id属性，3、在label标签中通过for属性和输入框的id进行绑定即可。例如：<lable for="account">账号：</lable><input type="text" id="account">
 ——还有简单的方法：直接把<input type="text" id="account">放在两个lable标签里面，但是这种做法有局限性，不能通过点击账号聚焦密码输入框，
+20、video标签
+    —什么是video标签？ 作用：播放视频，格式：<video src="maomi.webm" autoplay="autoplay"></video>
+    —video标签的属性：
+    ——src:用于告诉用户video标签需要播放的视频地址。 
+    ——autoplay：用于告诉video标签是否需要自动播放视频。 格式：autoplay="autoplay"
+    ——controls：用于告诉video标签是否需要显示控制条。 controls="controls"
+    ——poster：用于告诉video标签视频没有播放之前显示的占位图片。 格式：poster="poster"
+    ——loop：一般用于做广告视频，用于告诉video标签视频播放完毕后是否需要循环播放。 格式:loop="loop"
+    ——preload：用来预加载视频，但是需要注意preload和autoplay相冲，如果设置了autoplay属性，那么preload属性就会失效。
+    ——muted：用来静音 格式：muted="muted"
+    ——width：
+    ——height：
 
 
 
