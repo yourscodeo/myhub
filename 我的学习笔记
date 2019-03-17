@@ -95,6 +95,24 @@
     ——还可以让图片滚动，格式:<marquee>
                             <img src="maomi.jpeg" width="50px">
                             </marquee>
+24、HTML5里面被废弃的标签：
+    为什么HTML5里面有一些标签被废弃：因为当前的HTML5中的标签只有一个作用，就是用来添加语义的，而早期的HTML的标签中有一部分标签是没有语义的，
+    有一部分标签是用来修改样式的，
+    <br>  <hr>  <font>  <b>  <u>  <i>  <s>以上这些标签都是没有语义的，都是用来修改样式的。
+    <b>中的b（bold）加粗文本，没有任何语义。
+    <u>中的u（underlined）给文本添加下划线
+    <i>中的i(italic) 将文本倾斜，没有任何语义。
+    <s>中的s（strikethrough）给文本添加删除线。
+    ——注意点：以后在企业开发中，不到万不得已一定不要使用这些标签，如果一定要使用，一般情况下都是用来做CSS的钩子使用。
+    strong==b    strong：定义重要性强调的文字。
+    ins==u          ins（inserted）：定义插入的文字
+    em==i           em（emphasized）：定义强调的文字
+    del==s           del（deleted）：定义被删除的文字
+25、什么是字符实体：在HTML中有的字符是被HTML保留的，有的HTML字符在HTML中有特殊含义的，是不能在浏览器中显示出来的，那么这些东西要想显示出来就必须通过字符实体
+    ——&nbsp;   :空格
+    ——&lt；      ：小于符号<       （less than）
+    ——&gt；     :大于符号>       （greater than）
+    ——&copy；  :版权符号©
     
 
 
