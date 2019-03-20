@@ -137,7 +137,16 @@ size一定要写在family的前面，而且size和family必须写在
 CSS3新增的选择器中最具代表性的就是序选择器
 1、同级别的第几个
 ：first-child    选中同级别的的第一个标签     注意点：不区分类型。
-
+：last-child     选中同级别的最后一个标签     注意点：不区分类型。
+：nth-child      选中同级别中的第n个标签      注意点：不区分类型。
+：nth-last-child（n）   选中同级别中第n个标签   注意点：不区分类型。
+：only-child      选中父元素中唯一的元素
+同类型的第几个
+：first-of-type   选择中同级别中同类型的第一个标签
+：last-of-type    选择中同级别中同类型的最后一个标签。
+：nth-of-type     选中同级别中同类型的第n个标签
+：nth-last-of-type（n）   选中同级别中同类型的倒数第n个标签
+：only-of-type     选中父元素中唯一类型的某个标签。
 
 
 
