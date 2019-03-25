@@ -262,7 +262,7 @@ display取值：   block块级     inline 行内    inline-block   行内块级
 在CSS中有一个background-repeat属性，就是专门用于控制背景图片的平铺方式的
 取值： repeat 默认，在水平和垂直都需要平铺    no-repeat  在水平和垂直方向都不需要平铺
       repeat-x  只在水平方向平铺    repeat-y只在垂直方向上平铺
-应用场景：
+应用场景：可以通过背景图片的平铺来降低图片的大小，提升网页的访问速度
            
    
    
