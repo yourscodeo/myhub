@@ -261,6 +261,7 @@ display取值：   block块级     inline 行内    inline-block   行内块级
        
 如何控制背景图片的平铺方式？
 在CSS中有一个background-repeat属性，就是专门用于控制背景图片的平铺方式的
+**  快捷键：bgr   background-repeat: ;
 取值： repeat 默认，在水平和垂直都需要平铺    no-repeat  在水平和垂直方向都不需要平铺
       repeat-x  只在水平方向平铺    repeat-y只在垂直方向上平铺
 应用场景：可以通过背景图片的平铺来降低图片的大小，提升网页的访问速度
@@ -268,13 +269,13 @@ display取值：   block块级     inline 行内    inline-block   行内块级
 同一个标签可以设置背景颜色和背景图片，如果颜色和图片同时存在，那么图片会覆盖颜色。
 如何控制背景图片的位置？ 在CSS中有一个叫做background-position：属性，就是专门用来控制背景图片的位置的
 格式：    background-position：水平方向  垂直方向的；    记住一定要写单位也就是一定要写px
-快捷键：  bp     background-position: 0 0;
+**  快捷键：  bp     background-position: 0 0;
 取值：  具体的方位名词    水平方向：  left   center   right
                         垂直方向：   top   center    bottom                 
        具体的像素     例如：background-position：100px 200px；
                            记住一定要带单位，记住具体的像素也是可以接收负数的
                            
-发现快捷键：   按住Ctrl+有>和.的那个键可以把一个标签缩起来，再按一下就可以打开。 
+**  发现快捷键：   按住Ctrl+有>和.的那个键可以把一个标签缩起来，再按一下就可以打开。 
 
 背景属性缩写格式：
            background： 背景颜色   背景图片  平铺方式  关联方式   定位方式 ；
@@ -284,6 +285,22 @@ display取值：   block块级     inline 行内    inline-block   行内块级
 如何修改背景关联方式？   在CSS中有一个叫做background-attachment的属性，这个属性专门用来修改关联方式的
        格式：    background-attachment：scrool；
 取值：    scroll  默认值，会随着滚动条的滚动而滚动    fixed    不会随着滚动条的滚动而滚动
+
+** 快捷方式小结：            bc    background-color: #fff;
+                         bi    background-image: url();
+                         bgr    background-repeat: ;
+                         bp   background-position: 0 0;
+                         ba    background-attachment: ;
+                         bg+    background: #fff url() 0 0 no-repeat;
+                         div.box     <div class="box"></div>
+                         div.box$*3
+                                           <div class="box1"></div>
+                                           <div class="box2"></div>
+                                           <div class="box3"></div>
+                                           
+背景图片和插入图片的区别?  背景图片仅仅是一个装饰，不会占用位置    背景图片有 定位属性所以可以很方便的控制图片的位置
+                         插入图片会占用位置      插入图片没有定位属性，所以控制图片的位置不太方便
+                         插入图片的语义比背景图片的语义要强，所以在企业开发中如果你的图片想被搜索引擎收录，那么推荐使用插入图片。
    
    
    
