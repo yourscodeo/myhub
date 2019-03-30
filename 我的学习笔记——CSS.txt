@@ -384,6 +384,26 @@ border-color：  上 右 下 左；
          1.增加了border之后元素的宽高也会发生变化
          2.如果增加了border之后还想保持元素的宽高, 那么就必须减去内容的宽高
 
+**快捷键：   div.content>div.aside+div.article
+                                               <div class="content">
+                                               <div class="aside"></div>
+                                               <div class="article"></div>
+                                               </div>
+                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
