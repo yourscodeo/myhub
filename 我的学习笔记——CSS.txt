@@ -390,6 +390,13 @@ border-color：  上 右 下 左；
                                                <div class="article"></div>
                                                </div>
                                   
+box-sizing属性：
+这个属性可可以保证我们给盒子新增padding和border之后，盒子元素的宽度和高度不变
+box-sizing属性是如何保证增加padding和border之后，盒子元素的宽度和高度不变的    和我们前面学习的原理一样增加padding和
+border之后想要保证盒子元素的宽度和高度，那么就必须减去一部分内容的宽度和高度
+box-sizing  取值    content-box    元素的宽高=边框+内边距+内容宽高
+                    border-box     元素的宽高=width属性
+
 
 
 
