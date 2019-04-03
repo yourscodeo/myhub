@@ -1,0 +1,12 @@
+Git的三层结构：      working directory    工作区
+                    staging index        暂存区
+                    git directory（Repository）    版本库
+
+Git文件的四种状态：   untracked   未被追踪
+                     Modified    表示工作区修改了某个文件但是还没有添加到暂存区。
+                     Staged      表示把工作区修改的文件添加到了暂存区但是没有提交到版本库
+                     Committed   表示数据库被安全的存储在本地库中
+配置用户信息我是谁：    git config --global user.name huzhihui    用于配置姓名
+                      git config --global user.email 415943594@qq.com    用于配置邮箱
+                      git config --list   查看git的配置情况
+                      
