@@ -396,7 +396,13 @@ box-sizing属性是如何保证增加padding和border之后，盒子元素的宽
 border之后想要保证盒子元素的宽度和高度，那么就必须减去一部分内容的宽度和高度
 box-sizing  取值    content-box    元素的宽高=边框+内边距+内容宽高
                     border-box     元素的宽高=width属性
-                    
+
+盒子居中和内容居中：
+text-align：center；和margin：0 auto；的区别
+text-align：center；  作用：设置盒子中存储的文字/图片水平居中
+margin：0 auto；作用：让盒子自己水平居中
+
+
 
 
 
