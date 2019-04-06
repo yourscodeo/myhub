@@ -10,3 +10,9 @@ Git文件的四种状态：   untracked   未被追踪
                       git config --global user.email 415943594@qq.com    用于配置邮箱
                       git config --list   查看git的配置情况
                       
+git init 命令 初始化git仓库，出现  .git  文件      
+git add   git add filename   将文件添加到暂存区(要包括文件的后缀)
+使用git add .    将工作目录下所有修改的文件添加到暂存区
+
+使用git add .   命令把本地所有文件提交     git commit -m 'add new files'  命令可以把暂存区的所有文件都提交到版本库中
+可以使用git commit -am 'remodifile' 来一次性把工作区的文件直接提交到版本库中，也就是把git add  命令和git commit -m ''  合并成这一个命令
