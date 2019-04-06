@@ -16,3 +16,7 @@ git add   git add filename   将文件添加到暂存区(要包括文件的后�
 
 使用git add .   命令把本地所有文件提交     git commit -m 'add new files'  命令可以把暂存区的所有文件都提交到版本库中
 可以使用git commit -am 'remodifile' 来一次性把工作区的文件直接提交到版本库中，也就是把git add  命令和git commit -m ''  合并成这一个命令
+
+git的撤销操作
+git commit --amend  命令的作用：将取消上一次的提交，将暂存区的文件重新提交，形成一个新的版本，如果想改变这个版本的描述的话，不对内容进行任何的改变只对版本的描述
+git checkout -- filename    如果我们把工作区的文件修改了，然后我们想撤销我们的修改然后我们就可以使用git checkout -- filename  命令来进行恢复修改前的样子。如果修改了多个文件，可以使用git checkout -- .  命令把所有修改的文件恢复原来的样子
