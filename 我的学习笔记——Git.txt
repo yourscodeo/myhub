@@ -24,3 +24,10 @@ git checkout -- filename  这个指令也可以把暂存区的文件拉回到工
 git reset HEAD filename   拉取最近一次提交的版本库中的这个文件到暂存区，该操作不影响工作区，如果想把工作区的文件修改为工作区的话，要使用
 git checkout -- filename 命令
 HEAD指的是头指针
+
+git rm
+     git rm file: 从staging区移除文件,同时也移除出工作目录.
+
+     git rm --cached: 从staging区移除文件,但留在工作目录中.
+
+     git rm --cached从功能上等同于git reset HEAD,清除了缓存区,但不动工作目录树.
