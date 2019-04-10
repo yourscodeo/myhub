@@ -30,3 +30,19 @@ git rm
      git rm --cached: 从staging区移除文件,但留在工作目录中.
 
      git rm --cached从功能上等同于git reset HEAD,清除了缓存区,但不动工作目录树.
+
+删除操作
+通常情况下，我们把文件直接删除后要在git bash里面输入git add .  操作把此次操作添加到暂存区（这是我们工作中最常用的删除方式）
+git rm index.html    删除暂存区和工作区中的文件
+当修改工作区文件后：  git rm --cached index.html    命令表示删除暂存区的文件，对工作区没有影响
+                    git rm -f index.html         命令表示暂存区的文件和工作区的文件一起删除
+重命名操作：       mv oldname newname  该操作只会修改工作区的文件，还要使用git add .  命令进行提交才行
+                  git oldname newname  该操作会把工作区和暂存区的文件名全修改好，不需要再添加到暂存区中   
+
+
+
+
+
+
+
+
