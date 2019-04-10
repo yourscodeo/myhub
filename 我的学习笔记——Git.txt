@@ -39,8 +39,13 @@ git rm index.html    删除暂存区和工作区中的文件
 重命名操作：       mv oldname newname  该操作只会修改工作区的文件，还要使用git add .  命令进行提交才行
                   git oldname newname  该操作会把工作区和暂存区的文件名全修改好，不需要再添加到暂存区中   
 
-
-
+Git分支
+git branch    查看当前分支
+git branch branchname    创建新的分支
+git checkout branchname   用于切换到相应的分支
+git branch -d branchname    用于删除相应的分支，注意删除时不能在被删除的分支上面
+git branch -m dev fix       把分支名称dev修改成fix
+git checkout -b dev         创建一个分支并切换到这个分支
 
 
 
