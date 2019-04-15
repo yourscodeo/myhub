@@ -509,9 +509,18 @@ clear属性取值：                         (他可以让下面的元素不找�
             *zoom:1;
         }
         
-
-
-
+overflow : hidden;
+作用：  可以将超出标签范围的内容剪掉；
+        可以清除浮动 
+        可以通过overflow：hidden；让里面盒子设置margin-top属性之后，外面的盒子不被顶下来。
+清除浮动：
+        .box1{
+            background-color: #f00;
+            overflow: hidden;
+            /*margin-bottom: 10px;*/
+            *zoom: 1;
+        }         （注意点：如果是IE6需要添加*zoom：1；才能够兼容哦）
+        
 
 
 
