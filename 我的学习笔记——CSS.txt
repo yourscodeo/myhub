@@ -645,6 +645,17 @@ a标签伪类选择器
 **记住
         text-decoration: none;   一般是用来清除a标签的下划线的
         list-style: none;     一般是用来清除li标签左边的小黑点的
+        
+2D转换模块
+transform属性他有很多取值
+  transform：rotate(45deg);      表示旋转45度，其中deg是单位度的意思。
+  transform：translate(100px,50px);    第一个参数表示水平方向上的平移，第二个参数表示垂直方向的平移。
+  transform: scale(1.5,1);    取值是1代表不变，取值大于1代表要放大，如果水平和垂直都一样，那么可以简写为一个参数
+  transform: rotate(45deg) translate(100px,50px) scale(1.5,1.5);     注意点：如果需要多个转换，那么用空格隔开；2D转换模块会改变元素的坐标系，所以旋转之后再平移就不是水平平移了
+
+        
+        
+        
 
 
 
