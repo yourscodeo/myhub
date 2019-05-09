@@ -628,7 +628,14 @@ a标签伪类选择器
   例如：transition-property: width, background-color;
         transition-duration: 5s,5s;
 
-
+过渡连写格式：
+  transition: 过渡的属性 过渡时长 运动速度 延迟时间
+  例如：transition: width 5s linear 0s;
+     transition: width 5s linear 0s,background-color 5s linear 0s;
+过渡连写注意点：
+  1、和分开连写一样，如果想给多个属性添加过渡效果是用逗号隔开即可
+  2、连写的时候可以省略后面的两个参数，因为只要编写了前面的两个参数 就已经满足了过渡的三要素
+  3、如果多个属性的速度/延迟时间/持续时间都一样，那么可以简写为：transition: all 5s;
 
 
 
