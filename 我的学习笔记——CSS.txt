@@ -250,7 +250,7 @@ div和span有什么区别？     div会独占一行，而span不会独占一行 
 行内块级元素：  为了让元素既能不独占一行又能设置宽度和高度，那么就出现了行内块级元素 
  
 如何转换CSS元素的显示模式？    设置元素的display属性
-display取值：   block块级     inline 行内    inline-block   行内块级
+display取值：   block块级     inline 行内    inline-block   行内块级   none
 快捷键：di：   display inline     db：    display：block    dib：    display：inlin-block
 
 如何设置标签的背景颜色？
@@ -314,7 +314,7 @@ CSS精灵图的作用    可以减少请求的次数，以及降低服务器的�
 什么是边框？    边框就是环绕在标签宽度和高度周围的线条
 边框属性的格式    连写（同时设置四条边的边框）
                    border：边框的宽度   边框的样式   边框的颜色；
-快捷键：  bd+border：1px solid #000；
+快捷键：  bd+=border：1px solid #000；
 注意点：连写格式中颜色可以省略，省略之后默认颜色为黑色。  
         连写格式中样式不能省略，省略之后就看不到边框了
         连写格式中宽度可以省略，省略之后可以看到边框
