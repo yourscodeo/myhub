@@ -701,9 +701,12 @@ transform属性他有很多取值
               animation-timing-function:ease;    运动方式，默认为ease，取值和transition一样。
               animation-iteration-count:infinite;   播放次数，infinite代表无限次，取值1、2、3、4...规定动画被播放的次数。默认是 1。
               animation-play-state: running;    告诉系统是否需要暂停，取值有running和paused，表示执动画和暂停动画
+通过我们的观察，动画是有一定的状态的：
+1、等待状态；2、执行状态；3、结束状态 ；
+animation-fill-mode  指定动画等待状态和结束状态的样式
               animation-fill-mode：none；      animation-fill-mode : none ;     不改变默认行为
-                                              animation-fill-mode : forwards ;   当动画完成后，保持最后一个属性值（在最后一个关键帧中定义）。 
-                                              animation-fill-mode : backwards ;  在 animation-delay 所指定的一段时间内，在动画显示之前，应用开始属性值（在第一个关键帧中定义）。 
+                                              animation-fill-mode :backwards ;  让元素等待状态时候显示动画第一帧的样式 
+                                              animation-fill-mode : forwards ;  在 animation-delay 所指定的一段时间内，在动画显示之前，应用开始属性值（在第一个关键帧中定义）。 
                                               animation-fill-mode : both;   向前和向后填充模式都被应用。
               
               
