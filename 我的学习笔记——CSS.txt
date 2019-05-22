@@ -509,7 +509,7 @@ clear属性取值：                         (他可以让下面的元素不找�
             *zoom:1;
         }
         
-overflow : hidden;
+**  overflow : hidden;
 作用：  可以将超出标签范围的内容剪掉；
         可以清除浮动 
         可以通过overflow：hidden；让里面盒子设置margin-top属性之后，外面的盒子不被顶下来。
