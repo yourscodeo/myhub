@@ -722,7 +722,16 @@ animation-fill-mode  指定动画等待状态和结束状态的样式
   这样的话可以旋转但是不会改变内容正反。3D轮播图的话可以通过使ul转动来实现
 注意点:只要父元素被拉伸啦，子元素也会被拉伸，例如：ul和li
 
-
+**快捷键：
+  ul>li{box$}*6;      光标要放在分号的后面，再按Tab
+  <ul>
+    <li>box1</li>
+    <li>box2</li>
+    <li>box3</li>
+    <li>box4</li>
+    <li>box5</li>
+    <li>box6</li>
+</ul>
 
 
 
