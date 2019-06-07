@@ -51,3 +51,22 @@ git checkout -b dev         创建一个分支并切换到这个分支
 
 
 
+
+
+
+Git廖雪峰的Git教程
+
+git log --pretty=oneline
+git reset --hard  fc0d24e  回到某一次commit 时候数字代表的是commit的id，
+git reset --hard head^     回到上一次提交，^表示回到上一次，^^表示回到上两次，以此类推。
+git checkout readme.txt    撤销工作区的文件。
+git reset head readme.txt      撤销暂存区的文件回到工作区，可以使用git checkout readme.txt命令把工作区的文件修改为原来的样子。
+
+
+
+
+
+
+
+
+
