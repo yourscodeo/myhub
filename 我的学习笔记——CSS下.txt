@@ -18,8 +18,17 @@
    告诉浏览器图片需要向外移动多少
  连写格式；  border-image: 资源地址 切割方式 平铺方式；
             border-image: url("images/border.jpg") 70 fill stretch;
-   
-   
+
+什么是vertical-align？
+  设置元素的垂直对齐方式。
+vertical-align注意点：
+  text-align是设置给需要对齐元素的父元素
+  vertical-align是设置给需要对齐那个元素本身
+  vertical-align  只对行内元素有效
+  
+默认情况下是和基线对齐的，vertical-align： baseline;      （基线就是一行文字中最短那个文字的底部）
+其他取值还有vertical-align： top；    bottom     text-top    text-bottom    middle    （中线致得是距离基线上面四分之一距离的线）
+                       （盒子的顶部）（盒子的底部）  （文字的顶部）  （文字的底部）  （中线）                                                      
   
   
   
