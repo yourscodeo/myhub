@@ -1,0 +1,27 @@
+**技巧：在企业开发中推荐使用如下的方式让元素居中，
+  水平居中： left: 50%;  transform: translateX(-50%);
+  垂直居中： top: 50%;  transform: translateY(-50%);
+  
+  边框图片：
+    border-image-source: url("images/border.jpg")
+   告诉浏览器那一张图片成为边框，
+   注意点：如果通过source指定了哪一张图片作为边框图片，默认情况下会将图片放到边框的四个顶点。
+   如果设置了边框图片，那么就不会显示边框颜色，边框图片的优先级大于边框颜色
+ border-image-slice: 70 70 70 70 fill;     fill是使中间的图片进行中间填充，他的填充方式和上右下左中间的填充方式一样，
+   告诉浏览器如何对指定的边框图片进行切割    其他的部分用来填充在除了四个角以外的地方
+ border-image-width: 10px;
+   告诉浏览器图片显示的宽度，并不是指定边框的宽度。
+   注意点：如果通过border-images-width  指定了边框图片的宽度，那么默认的边框宽度就会失效
+ border-image-repeat: stretch;       还有repeat    round  
+   告诉浏览器除了边框图片四个角以外的图片如何填充，默认是拉伸 stretch
+ border-image-outset: 10px 30px 50px 70px;
+   告诉浏览器图片需要向外移动多少
+ 连写格式；  border-image: 资源地址 切割方式 平铺方式；
+            border-image: url("images/border.jpg") 70 fill stretch;
+   
+   
+  
+  
+  
+  
+  
