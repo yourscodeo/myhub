@@ -29,8 +29,42 @@ vertical-align注意点：
 默认情况下是和基线对齐的，vertical-align： baseline;      （基线就是一行文字中最短那个文字的底部）
 其他取值还有vertical-align： top；    bottom     text-top    text-bottom    middle    （中线致得是距离基线上面四分之一距离的线）
                        （盒子的顶部）（盒子的底部）  （文字的顶部）  （文字的底部）  （中线）                                                      
-  
-  
-  
+ 线径渐变：background: linear-gradient(to top,red,black);      使用to然后使用方向关键字由红变黑。
+          background: linear-gradient(90deg,red,black);       向90度的方向旋转，由红变黑。
+ 线径渐变注意点： 
+      至少传递两个渐变，至多没有上限。
+      默认情况下系统会自动计算纯色的范围，但是我们也可以手动指定：   background:linear-gradient(to right,red 100px,black 200px,green 300px);     除了第一个指定的是纯色的范围其他都是指定渐变色的范围，例如black的两百px指的是从100px红色后，到两百的这段两百px的范围内发生由红色到黑色的渐变，绿色的300px指的是，由黑色渐变到两百结束后，两百到三百px的距离内发生黑色到绿色的渐变。
+      
+-webkit-background-clip  可以用来将背景剪切为文字的形状，
+   注意点：  
+      -webkit-background-clip   是一个私有属性不是所有的浏览器都能识别，
+      
+      -ms代表【ie】内核识别码
+      -moz代表火狐【firefox】内核识别码
+      -webkit代表谷歌【chrome】/苹果【safari】内核识别码
+      -o代表欧盟【opera】内核识别码
+渐变色是可以作为背景图片来使用的，可以使用background-position：
+background-image: linear-gradient(-45deg,transparent 100px,white 150px,white 180px,transparent 220px);
+
+            background-position: -600px 0;
+            background-repeat: no-repeat;     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
   
   
