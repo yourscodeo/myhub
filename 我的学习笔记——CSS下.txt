@@ -48,9 +48,11 @@ background-image: linear-gradient(-45deg,transparent 100px,white 150px,white 180
 
             background-position: -600px 0;
             background-repeat: no-repeat;     
-      
-      
-      
+
+线性渐变：默认从上至下；可以通过to关键字的方式来修改渐变的方向；可以通过90deg的方式修改渐变的方向；
+径向渐变：默认从中心点向四周扩散；可以通过at关键字修改开始渐变的位置；可以通过at 位置的方式修改开始渐变的位置     
+线性渐变：可以指定纯色和渐变色的范围
+径向渐变：可以指定扩散的范围（注意点：如果需要同时指定扩散的位置和扩散的范围，那么范围必须写在at前面）
       
       
       
