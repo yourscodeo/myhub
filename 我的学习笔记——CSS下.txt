@@ -53,9 +53,15 @@ background-image: linear-gradient(-45deg,transparent 100px,white 150px,white 180
 径向渐变：默认从中心点向四周扩散；可以通过at关键字修改开始渐变的位置；可以通过at 位置的方式修改开始渐变的位置     
 线性渐变：可以指定纯色和渐变色的范围
 径向渐变：可以指定扩散的范围（注意点：如果需要同时指定扩散的位置和扩散的范围，那么范围必须写在at前面）
-      
-      
-      
+  eg:  background: radial-gradient(200px at top right ,green , red);   注意：扩散范围写在扩散位置前面，并且扩散范围后面不加  ,   符号。
+  
+  justify-content: ;     属性控制主轴对齐方式  取值有：flex-start  默认取值,从左对齐；  flex-end   从右对齐    ; center 居中对齐 ;    space-between  两端对齐  ;    space-around  环绕对齐 ;
+
+侧轴对齐：  align-itmes： flex-start；
+align-items： flex-start； 向上对齐      flex-end 向下对齐     center  居中对齐    baseline 基线对齐（让所有伸缩项中的基线在一条直线上对齐）    stretch 拉伸对齐或者等高对齐（让所有项的高度变为侧轴的高度）
+   注意点： 侧轴对比主轴来说没有两端对齐（space-between）和环绕对齐（space-around）
+           
+
       
       
       
